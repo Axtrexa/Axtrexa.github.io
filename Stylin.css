@@ -1,3 +1,12 @@
 body {
-    background-image: radial-gradient(white, purple);
+    background-image: url("https://cdn.vectorstock.com/i/500p/46/52/background-purple-gradient-modern-vector-48874652.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+h1 {
+    text-align: center;
+    border-bottom-style: solid;
 }
